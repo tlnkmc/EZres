@@ -64,28 +64,8 @@ EZres.exe -h
 - It's recommended to backup current settings before making changes
 - Resolution changes take effect immediately
 
-## Build Alternatives
-
-If you encounter CMake issues, try these alternatives:
-
-1. **Direct compilation** (recommended for MinGW):
-   ```bash
-   build_simple.bat
-   ```
-
-2. **Visual Studio**:
-   ```bash
-   build_vs.bat
-   ```
-
-3. **Auto-detect compiler**:
-   ```bash
-   build.bat
-   ```
-
 ## Troubleshooting
 
-- **CMake errors**: Use `build_simple.bat` for direct compilation
 - **Missing compiler**: Install MinGW-w64 or Visual Studio
 - **Permission denied**: Run as administrator
 - **DPI not changing**: Logout and login again
