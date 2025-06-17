@@ -64,12 +64,3 @@ EZres.exe -h
 - It's recommended to backup current settings before making changes
 - Resolution changes take effect immediately
 
-## Troubleshooting
-
-- **Missing compiler**: Install MinGW-w64 or Visual Studio
-- **Permission denied**: Run as administrator
-- **DPI not changing**: Logout and login again
-
-## License
-
-This project is open source. Feel free to use and modify.
