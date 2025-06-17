@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/Coding/Projects/EZres/build",
+  "command": "D:\\Coding\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe  -finput-charset=UTF-8 -fexec-charset=UTF-8 -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\EZres.dir\\main.cpp.obj -c D:\\Coding\\Projects\\EZres\\main.cpp",
+  "file": "D:\\Coding\\Projects\\EZres\\main.cpp",
+  "output": "CMakeFiles\\EZres.dir\\main.cpp.obj"
+}
+]
