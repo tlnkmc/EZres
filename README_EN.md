@@ -44,3 +44,29 @@ mingw32-make
 - It's recommended to backup current settings before making changes
 - Resolution changes take effect immediately
 
+## License
+
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+
+### GPL v3 Key Terms:
+- ✅ Free to use, modify, and distribute
+- ✅ Commercial use allowed
+- ❗ Modified versions must also be open source
+- ❗ Must retain original copyright notices
+- ❗ Must provide source code
+
+## Contributing
+
+Issues and Pull Requests are welcome!
+
+If you want to contribute code, please ensure:
+1. Comply with GPL v3 license
+2. Add appropriate copyright notices
+3. Maintain consistent coding style
+
+## Copyright
+
+Copyright (C) 2024 [Your Name]
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
