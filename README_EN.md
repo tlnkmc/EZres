@@ -13,6 +13,16 @@ A lightweight command-line tool for quickly changing Windows screen resolution a
 - List all available resolutions
 - Immediate effect (for resolution)
 
+## Command Line Options
+
+| Option | Description | Example |
+|--------|-------------|---------|
+| `-r <width> <height> [refresh]` | Set screen resolution | `EZres.exe -r 1920 1080 60` |
+| `-s <percentage>` | Set DPI scaling (100-500%) | `EZres.exe -s 125` |
+| `-l` | Display current settings | `EZres.exe -l` |
+| `-a` | List all available resolutions | `EZres.exe -a` |
+| `-h` | Show help information | `EZres.exe -h` |
+
 ## Build Requirements
 
 - C++17 compiler
@@ -26,36 +36,6 @@ mkdir build ; cd build
 cmake .. -G "MinGW Makefiles"
 mingw32-make
 ```
-
-## Usage
-
-```bash
-# Set resolution
-EZres.exe -r 1920 1080
-EZres.exe -r 1920 1080 60    # Specify refresh rate
-
-# Set DPI scaling
-EZres.exe -s 125             # 125% scaling
-
-# View current settings
-EZres.exe -l
-
-# List available resolutions
-EZres.exe -a
-
-# Show help
-EZres.exe -h
-```
-
-## Command Line Options
-
-| Option | Description | Example |
-|--------|-------------|---------|
-| `-r <width> <height> [refresh]` | Set screen resolution | `EZres.exe -r 1920 1080 60` |
-| `-s <percentage>` | Set DPI scaling (100-500%) | `EZres.exe -s 125` |
-| `-l` | Display current settings | `EZres.exe -l` |
-| `-a` | List all available resolutions | `EZres.exe -a` |
-| `-h` | Show help information | `EZres.exe -h` |
 
 ## Notes
 
